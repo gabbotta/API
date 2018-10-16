@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": ":q",
+  "main": "npm install express body-parser --save",
+  "scripts": {"start": "node api.js",
+    "test": "npm install express body-parser --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabbotta/API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabbotta/API/issues"
+  },
+  "homepage": "https://github.com/gabbotta/API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
