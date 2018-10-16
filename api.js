@@ -6,7 +6,7 @@ var courses_offered = [{id: 21, name: 'HCI'},
 {id: 28, name:'sweng'}]
 
 
-app.get('/', (req, res) => res.send('Ciao Max!'))
+app.get('/', (req, res) => res.send('Hello world!'))
 
 app.get('/courses', (req, res) => {
    res.json(courses_offered)
